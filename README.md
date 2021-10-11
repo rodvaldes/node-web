@@ -12,3 +12,11 @@ npm start
 curl http://localhost:3000
 <h1>Express NodeJS Web Framework</h1>%
 ```
+
+
+Ejecutar en Docker
+
+```
+docker build -t node-web . 
+docker run -p 3000:3000 node-web
+```
