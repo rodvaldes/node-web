@@ -1,2 +1,13 @@
 # node-web
 Repo de prueba de sitio web con NodeJs y express web framework.
+
+
+
+```
+git clone git@github.com:roxtrongo/node-web.git
+cd node-web
+npm install
+npm start
+curl http://localhost:3000
+<h1>Express NodeJS Web Framework</h1>%
+```
