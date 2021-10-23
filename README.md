@@ -19,4 +19,5 @@ Ejecutar en Docker
 ```
 docker build -t node-web . 
 docker run -p 3000:3000 node-web
+docker run -p 3000:3000 roxtrongo/node-web:0.0.1
 ```

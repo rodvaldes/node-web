@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cybersyn-app
+spec:
+  selector:
+    matchLabels:
+      app: cybersyn-app
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: cybersyn-app
+    spec:
+      containers:
+        - name: cybersyn-app
+          image: roxtrongo/node-web:0.0.1
+          ports:
+            - containerPort: 3000
